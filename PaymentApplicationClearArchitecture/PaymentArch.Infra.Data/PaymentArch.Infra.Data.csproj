@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -18,8 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PaymentArch.Infra.Data\PaymentArch.Infra.Data.csproj" />
+    <ProjectReference Include="..\PaymentArch.Domain\PaymentArch.Domain.csproj" />
   </ItemGroup>
-
 
 </Project>

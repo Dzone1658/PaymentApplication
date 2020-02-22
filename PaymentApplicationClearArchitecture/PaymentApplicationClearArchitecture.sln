@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentDetail", "PaymentDet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentArch.Domain", "PaymentArch.Domain\PaymentArch.Domain.csproj", "{539C4A4D-3AB7-45BB-A235-8585FADBC204}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentArch.Infra.Data", "PaymentArch.Infra.Data\PaymentArch.Infra.Data.csproj", "{40CDED76-4072-41D3-B007-AC38DC412F99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{539C4A4D-3AB7-45BB-A235-8585FADBC204}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{539C4A4D-3AB7-45BB-A235-8585FADBC204}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{539C4A4D-3AB7-45BB-A235-8585FADBC204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40CDED76-4072-41D3-B007-AC38DC412F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40CDED76-4072-41D3-B007-AC38DC412F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40CDED76-4072-41D3-B007-AC38DC412F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40CDED76-4072-41D3-B007-AC38DC412F99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D56C9EA8-657E-4E58-B01C-1C436D7FE05A} = {CFECBF18-192E-442B-8AC9-9D8AB4FA0382}
 		{539C4A4D-3AB7-45BB-A235-8585FADBC204} = {A0241CB1-D4E0-4EE0-93F4-E889BD14A7C6}
+		{40CDED76-4072-41D3-B007-AC38DC412F99} = {C50C3450-5671-43CD-8849-A8EE61C31919}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4788E8DA-361E-462B-91F6-868386A1B114}
